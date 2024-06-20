@@ -9,9 +9,13 @@
     <PackageProjectUrl>https://github.com/rubendal/BitStream</PackageProjectUrl>
     <Description>Stream wrapper to read/write bits and other data types</Description>
     <PackageTags>bitstream bit read write stream</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>Version bumped to 1.2.1 to distinguish .NET core version from 1.2.0 .NET framework version.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
   </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
